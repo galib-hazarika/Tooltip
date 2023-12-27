@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.tool-tip-main {
+  position: relative;
+  display: inline-block;
+  padding :20px 30px 20px;
+}
+.tooltip {
+  position: absolute;
+  transform: translateX(80%);
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  min-width: 100px;
+  margin-top: 30px;
+}
+.hover {
+  border: none;
+  padding: 0.5rem;
+  font-family: sans-serif;
+}
